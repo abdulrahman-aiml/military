@@ -1,2 +1,8 @@
+pandas
+numpy
+matplotlib
+seaborn
+pickle 
+joblib
 flask
 scikit-learn
