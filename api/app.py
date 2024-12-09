@@ -5,7 +5,7 @@ import os
 # Initialize Flask app
 app = Flask(__name__)
 
-model_path = 'api\model.pkl'
+model_path = './model.pkl' 
 with open(model_path, 'rb') as f:
     model = pickle.load(f)
 
