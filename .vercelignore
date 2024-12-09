@@ -4,3 +4,4 @@ __pycache__
 *.git
 node_modules/
 *.log
+model.pkl
