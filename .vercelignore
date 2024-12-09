@@ -1,7 +1,0 @@
-*.pyc
-__pycache__
-*.pkl
-*.git
-node_modules/
-*.log
-model.pkl
