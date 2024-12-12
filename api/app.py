@@ -6,7 +6,7 @@ import os
 app = Flask(__name__)
 
 # Ensure you have the correct path for your model file
-model_path = r'C:\Users\admin dell\Desktop\Military\api\model.pkl'
+model_path = 'C:\Users\admin dell\Desktop\Military\api\model.pkl'
 
 # Load the model
 with open(model_path, 'rb') as f:
