@@ -6,10 +6,10 @@ import os
 app = Flask(__name__)
 
 # Ensure you have the correct path for your model file
-model_path = r'api/model.pkl'
+model_path = r'C:\Users\admin dell\Desktop\Military\api\model.pkl'
 
 # Load the model
-with open(model_path, 'r') as f:
+with open(model_path, 'rb') as f:
     model = pickle.load(f)
 
 @app.route('/')
