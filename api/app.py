@@ -8,12 +8,8 @@ app = Flask(__name__)
 # Ensure you have the correct path for your model file
 model_path = r'api/model.pkl'
 
-# Check if the model file exists
-if not os.path.exists(model_path):
-    raise FileNotFoundError(f"The model file '{model_path}' was not found!")
-
 # Load the model
-with open(model_path, 'rb') as f:
+with open(model_path, 'r') as f:
     model = pickle.load(f)
 
 @app.route('/')
