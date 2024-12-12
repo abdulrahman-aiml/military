@@ -6,7 +6,7 @@ import os
 app = Flask(__name__)
 
 # Ensure you have the correct path for your model file
-model_path = 'api\model.pkl'
+model_path = r'api/model.pkl'
 
 # Check if the model file exists
 if not os.path.exists(model_path):
